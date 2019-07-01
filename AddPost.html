@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="Portfolio.css">
+        <script src="blogFunctional.js" type="text/javascript"></script>
+        <title>Add Post</title>
+
+        <header>
+          <div class="hContainer">
+          <img class="hImg" src="images/bBanner.jpg" alt="A picture of a blog" width="304" height="228">
+
+          </div>
+        </header>
+
+        <nav>
+          <ul class="main">
+              <li class= "first"><a class="first"  href="index.php"><b>Omar Hassan Abdi</b></a></li>
+              <li class="first"><a class="first" id="aboutMe" href="About_Me.html">About Me</a></li>
+              <li class="first"><a class="first" id="Achievements" href="Achievements.html">Achievements</a></li>
+              <li class="first"><a class="first" id="Education" href="Education.html">Education</a></li>
+              <li class="first"><a class="first" id="Experience" href="Experience.html">Experience</a></li>
+              <li class="first"><a class="first" id="Portfolio" href="Portfolio.html">Portfolio</a></li>
+              <li class="first"><a class="first" id="Contact"href="Contact.html">Contact</a></li>
+              <li class="first"><a class="first" id="Blog"href="Blog.html">Blog</a></li>
+          </ul>
+        </nav>
+    </head>
+    <body>
+
+    <div class="flex-container">
+     <div class="column left">
+     <div class="row">
+     <article>
+     <section>
+      <h2 class="para">Add Blog Post</h2>
+    <div class="align3">
+    <form class="postForm" method="post" action="addPost.php">
+      <br>
+      <b>Add Blog</b><br>
+      <br>
+      <input class="mywidth" id="title" type="text" value="" name="title" placeholder="Title">
+      <br>
+      <br>
+      <textarea class="mywidth" id="textA2" type="text" name="message" placeholder="Enter your text here" rows="10" cols="50"></textarea>
+      <br>
+      <br>
+      <input class="button3" type="Submit" value="Post" onclick="return validation(event)" name="post">
+      <input class="button4" type="reset" onclick="return clearFunction()" value="Clear">
+      <br>
+      <br>
+      <input class="button4" type="Submit" value="Preview" onclick="return validation(event)" name="preview">
+      <br>
+      <br>
+      </form>
+      <br>
+      <br>
+      <br>
+      <br>
+      </div>
+    </div>
+    </div>
+    </section>
+    </article>
+
+    <div class="column right">
+    <div class="row">
+    <aside>
+
+      <p id="login"></p>
+      <div class="align">
+      <form>
+      <input id="button5" type="Submit" value="Login" onclick="return login(event)">
+      <input class="button" type="Submit" value="Add Blog Post" onclick="return blogFunction(event)">
+      </form>
+      </div>
+
+    <img class="hImg" src="images/addBlog.jpg" alt="A picture of a login icon" width="304" height="228">
+        <h3>Quote of the day</h3>
+    <p id="headtext2">"The today can be repeated but, it can never come back."
+
+    </div>
+    </aside>
+    </div>
+  </div>
+
+    <div id="footer">
+      <footer>
+        <p>Omar 2019</p>
+      </footer>
+    </div>
+
+    <script>backData()</script>
+    <script>setLogin()</script>
+    <script>loginStatus()</script>
+
+    </body>
+</html>

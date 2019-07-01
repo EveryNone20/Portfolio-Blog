@@ -1,0 +1,1 @@
+<script>window.open('viewBlog.php','_self')</script>

@@ -1,0 +1,482 @@
+* {
+  box-sizing: border-box;
+}
+
+.hImg{
+  width: 100%;
+}
+
+.hContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.headT{
+  font-size: 18pt;
+}
+.headT2{
+  font-size: 14pt;
+}
+.homeT{
+  font-size: 20pt;
+}
+
+.formT{
+  font-size: 16pt;
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   background-color:lightgray;
+  color: black;
+}
+ul.main{
+  border-style: solid;
+  border-color: blue;
+  border-width: 5px;
+
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#login {
+  border-style: solid;
+  border-color: blue;
+  border-width: 2px;
+}
+div.row aside h3 {
+  border-style: solid;
+  border-color: blue;
+  border-width: 2px;
+}
+.hob{
+  position: relative;
+  float:right;
+  width: 15em;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float:left;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.left{
+  position: relative;
+  width: 65%;
+  padding-right: 2em;
+}
+
+.right {
+  position:relative;
+  right:0;
+  width: 35%;
+}
+
+.para{
+  border-bottom: 2px solid silver;
+}
+
+.fire{
+  max-width:100%;
+  max-height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h3{
+  background-color: #add8e6;
+  padding: 16px 8px;
+}
+
+.pad{
+  padding-top: 1em;
+}
+
+.login{
+  font-size: 18pt;
+  text-decoration: none;
+}
+
+.main{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+
+}
+
+.Us{
+  font-size: 1.5em;
+}
+
+.second{
+  margin: 0;
+  padding: 1em 0em;
+  overflow: hidden;
+  background-color: #DCDCDC;
+}
+
+.sec{
+  display: block;
+  font-size: 1.1em;
+  color: #4682B4;
+  padding: 0.125em 0.5em;
+  text-decoration: none;
+}
+
+.first {
+  float: left;
+}
+
+.first{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: white;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+
+body, head:not(.headT){
+  font-family: sans-serif;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  padding-left: 2%;
+  width: 100%;
+  height: 50px;
+  background-color: #f5f5f5;
+  color:black;
+}
+
+/* Form CSS*/
+.form
+{
+  background-color: #add8e6;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom:0.5em;
+  border: 0.1em solid blue;
+  max-width: 40em;
+}
+
+.header2
+{
+  background-color: blue;
+  text-align: center;
+  color: white;
+  font-size: 16pt;
+}
+
+.pad2
+{
+  padding-top: 0.5em;
+}
+
+.top
+{
+  border: 0.1em solid blue;
+}
+
+.middle
+{
+  border: 0.1em solid blue;
+}
+
+.bottom
+{
+  border: 0.1em solid blue;
+}
+
+.footer
+{
+  background-color: white;
+  padding-bottom: 1em;
+}
+
+.align2{
+  margin: auto;
+  width:50%;
+}
+
+.align
+{
+  text-align: center;
+}
+
+.button
+{
+  background-color: blue;
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.textarea{
+  text-align: center;
+}
+
+/*Blog Form CSS */
+#pass{
+  font-size: 22pt;
+}
+
+#email{
+  font-size: 22pt;
+}
+
+.blogForm{
+  background-color: lightblue;
+  color: white;
+  font-size: 22pt;
+  text-align: center;
+  max-width: 20em;
+}
+
+.button2
+{
+  background-color: blue;
+  color: white;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*Add Post form CSS*/
+.align3{
+  margin: auto;
+  width:65%;
+}
+
+.mywidth {
+  width: 90%;
+}
+
+#title{
+  font-size: 16pt;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#textA2{
+  font-size: 16pt;
+}
+
+.postForm{
+  background-color: lightblue;
+  color: white;
+  font-size: 22pt;
+  text-align: center;
+  max-width: 200%;
+}
+
+.button3{
+  background-color: blue;
+  color: white;
+  margin-right: 10%;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button4{
+  background-color: blue;
+  color: white;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*General CSS*/
+.hBlog{
+  background-color:#6495ED;
+  color:white;
+  padding-left: 2%;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+
+}
+
+.hBlog2{
+  background-color:grey;
+}
+
+.blog{
+  border-bottom: 4px solid white;
+}
+
+.time{
+  padding-right: 2%;
+  text-align: right;
+  color:white;
+}
+
+#headtext2{
+  font-size: 18pt;
+}
+
+#login{
+  text-align: center;
+  background-color: #add8e6;
+  font-size: 22pt;
+}
+img.hImg {
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+}
+
+#button5{
+  background-color: blue;
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.align4{
+  margin:auto;
+  width: 50%;
+}
+
+.button6
+{
+  background-color: #6495ED;
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#aboutMe {
+  top: 20px;
+  border-style: solid;
+  border-color: #4CAF50;
+  border-width: 2px;
+}
+
+#Achievements {
+  top: 80px;
+  border-style: solid;
+  border-color: #2196F3;
+  border-width: 2px;
+
+}
+
+#Education {
+  top: 140px;
+  border-style: solid;
+  border-color: #f44336;
+  border-width: 2px;
+}
+
+#Experience {
+  top: 200px;
+  border-style: solid;
+  border-color: indigo;
+  border-width: 2px;
+
+}
+#Portfolio {
+  top: 260px;
+  border-style: solid;
+  border-color: orange;
+  border-width: 2px;
+}
+#Contact {
+  top: 320px;
+  border-style: solid;
+  border-color: purple;
+  border-width: 2px;
+}
+#Blog {
+  top: 380px;
+  border-style: solid;
+  border-color: navy;
+  border-width: 2px;
+}

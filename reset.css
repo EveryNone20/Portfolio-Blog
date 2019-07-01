@@ -1,0 +1,9 @@
+html, body, div,
+b, ul, li,
+fieldset, form,
+table, tbody, tfoot, thead, tr, th, td,
+article, aside, figcaption, figure,
+footer, header, hgroup, nav, section {
+    margin:0;
+    padding:0;
+}
